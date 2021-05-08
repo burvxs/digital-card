@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body {
+    background: palevioletred;
+}
+
+p{
+    font-family: 'Indie Flower', cursive;
+}
+#wrapper {
+    position: absolute;
+    text-align: center;
+    top : 35%;
+    width : 100%;
+}
+
+#wrapper > .short {
+    position: relative;
+    font-size: 60px;
+}
+
+#wrapper > #long {
+    position: relative;
+    font-size: 40px;
+    margin-top: -40px;
+}
+
+@media only screen and (max-width: 600px){
+	#wrapper > #long {
+        position: relative;
+        font-size: 40px;
+        margin-top: -270px;
+    }
+}
+
