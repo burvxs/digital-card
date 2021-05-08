@@ -1,5 +1,5 @@
 let sentenceOrder = [
-    "<p class='short'>HAPPY MOTHER'S DAY!!! &#128525&#128519&#128523</p>",
+    "<p class='short' id='caps'>HAPPY MOTHER'S DAY!!! &#128525&#128519&#128523</p>",
     "<p class='short'>I love you</p>",
     "<p id='long'>I cherish each moment I spend with you. Once again... Thank you for supporting me <br> " +
     "with everything I do. Whether I fail or succeed you're always at my side; sitting with me listening <br>" + 
